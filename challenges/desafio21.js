@@ -1,4 +1,4 @@
-db.produtos.updateOne({
+db.produtos.updateMany({
   nome: "Cheddar McMelt",
 }, {
   $pop: {
